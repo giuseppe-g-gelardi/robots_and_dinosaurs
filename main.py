@@ -16,3 +16,9 @@ deathany = Dinosaur("deathany", "222", "20")
 
 
 print("inside main.py")
+
+
+
+
+battlefield = Battlefield()
+battlefield.run_game()

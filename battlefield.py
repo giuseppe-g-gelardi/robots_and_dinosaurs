@@ -6,10 +6,11 @@ class Battlefield:
 
 
     def run_game(self):
+        
 
-
-    def display_welcome(self):
-
+        def display_welcome(self):
+        print("Welcome to Robots vs Dinosaurs!")
+        initiate_game = input("Would you like to start the game?: 'yes' or 'no' ")
 
     def battle(self):
 
