@@ -11,7 +11,8 @@ bobby = Robot("bobby", "120", "gladys")
 dhaby = Robot("dhaby", "155", "matilda")
 
 bethany = Dinosaur("bethany", "150", "25")
-deathany = Dinosaur("deathany", "222", "20")
 staphanie = Dinosaur("staphanie", "225", "20")
+deathany = Dinosaur("deathany", "222", "20")
+
 
 print("inside main.py")
