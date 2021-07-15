@@ -1,0 +1,35 @@
+pseudo code for the battle outline //
+
+set up the structure for the peoject
+  link all classes together in the proper order according to the uml
+
+# pseudo start screen
+welcome user
+prompt the user and ask if theyre ready to battle
+if 'yes' inititate the battle
+else: reprompt
+
+# initiate battle
+choose who attacks first as well as *attempt* to have the program decide randomly
+
+
+#battle/attack algorithm
+
+robot/dinosaur.attack()
+    dinosaurs/robots = 3
+    attack/energy = 100
+    while health > 0 
+    attack = health/energy - 10
+        if health/energy = 0
+        dinosaurs/robots - 1
+        print your dinosaur/robot has been defeated
+        print you only have X left in your heard/fleet
+
+    if dinosaurs/robots = 0
+    print your fleet/herd has been defeated
+    X has survived. 
+    prompt would you like to play again?
+    if yes - restart battle
+
+    
+    

@@ -9,3 +9,4 @@ class Robot:
 
 
     def attack(self, dinosaur):
+        self.dinosaur = dinosaur
