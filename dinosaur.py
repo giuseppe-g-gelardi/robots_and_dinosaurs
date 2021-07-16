@@ -5,5 +5,7 @@ class Dinosaur:
         self.health = health
 
 
-    def attack(self, robot):
+    def attack(self, robot, attack_list):
         robot.health -= self.attack_power
+        # self.attack_list = ("Chomp", "Tail slap", "Stomp" )
+        # TODO connect attack list and set up the ability to select which attack to use

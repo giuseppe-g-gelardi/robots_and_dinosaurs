@@ -34,7 +34,7 @@ class Battlefield:
 
         # self.fleet.robot_list[0].attack(self.herd.dino_list[0])
         # self.herd.dino_list[0].attack(self.fleet.robot_list[0])
-
+        # TODO link the different attacks + ability to choose for each respective character
 
 
     def dino_turn(self, dinosaur):
@@ -47,12 +47,12 @@ class Battlefield:
         pass
 
     def show_dino_opponent_options(self):
-        print("something")
-
+        # TODO display robots are left
+        pass
 
     def show_robot_opponent_options(self):
-        print("something else idk")
-
+        # TODO display which dinos are left
+        pass
 
     def display_winners(self):
         if len(self.fleet.robot_list) == 0:
@@ -60,6 +60,4 @@ class Battlefield:
         if len(self.herd.dino_list) == 0:
             print("ROBOTS WIN!")           
 
-
-# EOF
 
